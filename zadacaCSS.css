@@ -1,0 +1,217 @@
+@keyframes nolep{
+    0%{
+        transform: rotate(1.5deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes nolepp{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes noleppp{
+    0%{
+        transform: translateY(0%);
+    }
+    20%{
+        transform: translateY(20%);
+    }
+    50%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(128%);
+    }
+}
+@keyframes nolepppp{
+    0%{
+        transform: translateY(-0%);
+    }
+    20%{
+        transform: translateY(-20%);
+    }
+    50%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(-128%);
+    }
+}
+
+
+
+
+
+
+
+#One1{
+    text-align: center;
+    color: rgba(255, 102, 0, 0.788);
+    font-family: sans-serif;
+    text-shadow: 5px 5px 10px yellowgreen;
+    
+}
+span{
+    float: left;
+    padding: 25px;
+}
+/* se zgolemuva marly1 */
+.marly1{
+    background-color: red;
+    border-bottom: solid gray;
+    width: 110px; 
+    height: 110px; 
+    overflow: hidden;
+    /* text-overflow: clip; */
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.marly2{
+    width: 110px;
+    height: 110px;
+    /* ili so auto za scroll */
+    overflow-y: scroll;  
+    background-color: green;
+    border-bottom: solid gray;
+    transition: width 2s, height 4s, transform 4s;
+    
+    
+}
+/* rotira marly3 elementot */
+.marly3{
+    background-color: blue;
+    border-bottom: solid gray;
+    width: 110px;
+    height: 110px;
+    overflow: visible;
+    transition: width 2s, height 4s, transform 4s;
+    
+    
+   /* vo hover dodadov plus raboti */
+    
+}
+.marly1:hover{ 
+    background-color: rgba(255, 251, 0, 0.404);
+    transform: scale(1.5) translate(26px,10px );
+    border-bottom: solid rgb(0, 67, 168);
+    
+}
+/* Tretiot elemnet go staviv da rotate */
+.marly3:hover{
+    background-color: rgba(6, 230, 155, 0.377);
+    transform: rotate(360deg);
+    border-bottom: solid rgb(168, 67, 0);
+    
+    
+    
+
+    
+}
+
+.marly2:hover{
+    background-color: rgba(165, 42, 42, 0.418);
+    text-decoration: underline;
+    transform: scale(1.5) translate(26px,10px );
+    
+       
+}
+body{
+    background-color: rgba(64, 190, 190, 0.123);
+}
+.marly1, .marly2, .marly3{
+    text-align: center;
+}
+/* Tuka del od vtoriot zadaca2*/
+
+nav{
+    width: 1290px;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(0, 255, 98);
+    padding: 30px;
+    font-size: 20px;
+    
+    
+    
+}
+a{
+    margin: 25px;
+    color: antiquewhite;
+}
+a:hover{
+    color: brown;
+    text-shadow: 6px 5px 10px yellow;
+     
+    
+}
+.nolefan {
+    
+    text-align: center;
+    color: rgb(153, 1, 1);
+    font-family: 'Courier New', Courier, monospace;
+    animation: nolep 6s linear 1s ;
+    
+    
+    
+    
+}
+.nolefan1{
+    text-align: center;
+    color: rgba(0, 199, 182, 0.89);
+    font-family: 'Courier New', Courier, monospace;
+    animation: nolepp 6s linear 7s infinite ;
+    
+    
+
+}
+.nolefan2{
+    text-align: center;
+    color: rgb(115, 230, 7);
+    font-family: 'Courier New', Courier, monospace;
+    animation: noleppp 10s linear 6s infinite ;
+    
+
+    
+
+}
+.nolefan3{
+    text-align: center;
+    color: rgb(0, 35, 189);
+    font-family: 'Courier New', Courier, monospace;
+    animation: nolepppp 10s linear 6s infinite ;
+    
+    
+
+}
+/* #hi{ */
+
+    
+    
+    
+
+/* } */
+#hi:hover{
+    display: none;
+        
+
+    
+    
+    
+
+}
+
+
+
+
+
